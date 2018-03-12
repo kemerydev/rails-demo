@@ -1,0 +1,63 @@
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$form-label-font-family:  Helvetica, sans-serif;
+$form-label-font-size: larger;
+
+$field-label-font-family: Courier, monospace;
+
+.form-label {
+  font-family: $form-label-font-family;
+  font-size: $form-label-font-size;
+  margin-bottom: 30px;
+}
+
+.field-label {
+  font-family: $field-label-font-family;
+}
+
+.integer-field {
+  font-family: $field-label-font-family;
+  width: 15%;
+}
+
+.string-field {
+  font-family: $field-label-font-family;
+  margin-left: 22px;
+  width: 45%
+}
+
+.save-button {
+  margin-top: 20px;
+  font-size: large;
+}
+
+input, select, textarea {
+  padding: 12px;
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  vertical-align: central;
+  margin-left: 12px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-right: 8px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}

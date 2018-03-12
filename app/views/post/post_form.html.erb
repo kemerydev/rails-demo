@@ -1,0 +1,14 @@
+<%= form_tag("/save", method: "post") do %>
+  <%= label_tag(:post_1, "Save the following data to be retrieved later:", :class => "form-label") %> <br /><br />
+
+  <%= label_tag(:post_string, "String:", :class => "field-label") %>
+  <%= text_field_tag(:post_string, '', :class => "string-field") %><br />
+
+  <%= label_tag(:post_integer, "Integer:", :class => "field-label") %>
+  <%= text_field_tag(:post_integer, '', :class => "integer-field") %><br />
+
+  <%= label_tag(:post_boolean, "Boolean:", :class => "field-label") %>
+  <%= check_box_tag(:post_boolean) %><br />
+
+  <%= submit_tag("Save", :class => "save-button") %>
+<% end %>

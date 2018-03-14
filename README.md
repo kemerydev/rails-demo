@@ -9,3 +9,5 @@ This is currently under construction.  As a demonstration of the ability to do e
 - Will serve up the data using a RESTful web service
 - Will also allow data to be POSTed with the Rest service
 - Will include a user interface for viewing the data returned by the API.
+
+On my dev environment, which is Ubuntu running in Linux Subsystem for Windows 10, postgresql can be installed with "sudo apt-get install postgresql postgresql-contrib libpq-dev" and started with "sudo service postgresql start".  The "pg" gem is also required.
